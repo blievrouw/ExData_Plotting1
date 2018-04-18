@@ -1,0 +1,2 @@
+# Reproduction notes
+Original data for this project was download from [this URL](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip). After unzipping the file in the `data` directory as `household_power_consumption.txt`,the `extract_data.sh` bash script was called in order to only extract power consumption data from two days (2007-02-01 and 2007-02-02). Reading and parsing this two-day data was done by `read_data.R` R script. The resulting dataframe was sourced in each plot-generating script (`plot1.R`, `plot2.R`, `plot3.R`, `plot4.R`).
